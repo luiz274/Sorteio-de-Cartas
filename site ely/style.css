@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("img/fundo.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #D8F0F2;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  
+  .card {
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 200px;
+    max-height: 400px;
+    border-radius: 7px;
+  }
+  
+  .rule {
+    margin-top: 5px;
+    margin: auto;
+  }
+  
+  .botom {
+    text-align: center;
+    color: white;
+    background-color: purple;
+    width: 200px;
+    padding: 12px;
+    margin: 25px auto;
+    border: none;
+    border-radius: 5px;
+  }
